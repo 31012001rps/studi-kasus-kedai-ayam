@@ -27,7 +27,8 @@ int main()
 	cout<<"Harga		: ";
 	cin>>harga[i];
 	
-	total[i]=jumlah[i]*harga[i];	
+	total[i]=jumlah[i]*harga[i];
+	tot += total[i];
 	
 }
 cout<<endl;
